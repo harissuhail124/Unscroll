@@ -1,0 +1,340 @@
+/* Local bundled fonts */
+@import '@fontsource/plus-jakarta-sans/400.css';
+@import '@fontsource/plus-jakarta-sans/500.css';
+@import '@fontsource/plus-jakarta-sans/600.css';
+@import '@fontsource/plus-jakarta-sans/700.css';
+@import '@fontsource/amiri/400.css';
+@import '@fontsource/amiri/700.css';
+
+:root {
+  /* Color Palette - Light Mode */
+  --bg-primary: #fbf9f5;
+  --bg-card: #ffffff;
+  --bg-card-subtle: #f4efe6;
+  --bg-header: rgba(251, 249, 245, 0.92);
+  --bg-nav: rgba(255, 255, 255, 0.95);
+  
+  --text-primary: #111827;
+  --text-secondary: #4b5563;
+  --text-muted: #6b7280;
+  
+  --accent-emerald: #064e3b;
+  --accent-emerald-subtle: #ecfdf5;
+  --accent-emerald-text: #064e3b;
+  
+  --accent-teal: #0f766e;
+  --accent-teal-subtle: #f0fdfa;
+  
+  --accent-gold: #b45309;
+  --accent-gold-subtle: #fef3c7;
+  
+  --accent-sand: #e6dfd1;
+  --border-subtle: #e5e0d5;
+  --border-active: #064e3b;
+  
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 12px rgba(6, 78, 59, 0.08);
+  --shadow-lg: 0 10px 24px rgba(6, 78, 59, 0.12);
+
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-arabic: 'Amiri', 'Noto Naskh Arabic', serif;
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+[data-theme='dark'] {
+  --bg-primary: #08110e;
+  --bg-card: #121e1a;
+  --bg-card-subtle: #192a25;
+  --bg-header: rgba(8, 17, 14, 0.92);
+  --bg-nav: rgba(18, 30, 26, 0.95);
+  
+  --text-primary: #f3f4f6;
+  --text-secondary: #9ca3af;
+  --text-muted: #6b7280;
+  
+  --accent-emerald: #10b981;
+  --accent-emerald-subtle: rgba(16, 185, 129, 0.15);
+  --accent-emerald-text: #34d399;
+  
+  --accent-teal: #2dd4bf;
+  --accent-teal-subtle: rgba(45, 212, 191, 0.15);
+  
+  --accent-gold: #fbbf24;
+  --accent-gold-subtle: rgba(251, 191, 36, 0.15);
+  
+  --accent-sand: #24352f;
+  --border-subtle: #1f332c;
+  --border-active: #10b981;
+  
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 14px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 10px 24px rgba(0, 0, 0, 0.5);
+}
+
+/* Base Reset & Mobile-first Layout */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+  font-size: 16px;
+  overflow-x: hidden;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Accessibility & Focus States */
+a, button, input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent-emerald);
+  outline-offset: 2px;
+}
+
+/* Touch targets: min 44x44px for thumb friendliness */
+button, [role="button"], input[type="checkbox"], a {
+  min-height: 44px;
+  touch-action: manipulation;
+}
+
+/* Respect prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* App Container */
+.app-container {
+  max-width: 480px;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: var(--bg-primary);
+  padding-bottom: calc(72px + var(--safe-bottom));
+}
+
+/* Arabic typography styling */
+.arabic-text {
+  font-family: var(--font-arabic);
+  direction: rtl;
+  text-align: right;
+  line-height: 2.1;
+  font-size: 1.25rem;
+}
+
+/* Button utility classes */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 20px;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  border: 1px solid transparent;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-primary {
+  background-color: var(--accent-emerald);
+  color: #ffffff;
+  border-color: var(--accent-emerald);
+}
+
+[data-theme='dark'] .btn-primary {
+  background-color: var(--accent-emerald);
+  color: #08110e;
+  border-color: var(--accent-emerald);
+}
+
+.btn-secondary {
+  background-color: var(--bg-card);
+  color: var(--text-primary);
+  border-color: var(--border-subtle);
+}
+
+.btn-subtle {
+  background-color: transparent;
+  color: var(--text-secondary);
+  border-color: transparent;
+}
+
+/* Card utility */
+.card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 18px;
+  box-shadow: var(--shadow-sm);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Header styling */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  background-color: var(--bg-header);
+  border-bottom: 1px solid var(--border-subtle);
+  padding: calc(8px + var(--safe-top)) 12px 8px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+/* Bottom Navigation styling */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  background-color: var(--bg-nav);
+  border-top: 1px solid var(--border-subtle);
+  padding-bottom: var(--safe-bottom);
+}
+
+.bottom-nav-inner {
+  max-width: 480px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 0 4px;
+}
+
+.nav-tab {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  border: none;
+  background: none;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.15s ease;
+  padding: 0 2px;
+  min-width: 0;
+}
+
+.nav-tab.active {
+  color: var(--accent-emerald-text);
+}
+
+.nav-tab.active::after {
+  content: '';
+  position: absolute;
+  bottom: 6px;
+  width: 20px;
+  height: 3px;
+  border-radius: var(--radius-full);
+  background-color: var(--accent-emerald);
+}
+
+/* Main Content Area */
+.main-content {
+  flex: 1;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Breathing Circle Animation (CSS only) */
+@keyframes breatheAnimation {
+  0% {
+    transform: scale(0.75);
+    background-color: var(--accent-teal-subtle);
+    border-color: var(--accent-teal);
+  }
+  33.3% { /* Inhale 4s out of 12s */
+    transform: scale(1.12);
+    background-color: var(--accent-emerald-subtle);
+    border-color: var(--accent-emerald);
+  }
+  58.3% { /* Hold 3s */
+    transform: scale(1.12);
+    background-color: var(--accent-emerald-subtle);
+    border-color: var(--accent-gold);
+  }
+  100% { /* Exhale 5s */
+    transform: scale(0.75);
+    background-color: var(--accent-teal-subtle);
+    border-color: var(--accent-teal);
+  }
+}
+
+.breathing-circle-outer {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  border: 3px solid var(--accent-emerald);
+  animation: breatheAnimation 12s ease-in-out infinite;
+  box-shadow: 0 0 24px rgba(6, 78, 59, 0.12);
+  transition: border-color 0.4s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .breathing-circle-outer {
+    animation: none !important;
+    transform: none !important;
+  }
+}
+

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "adhkar-morning-1",
+    "category": "morning",
+    "title": "Sayyid al-Istighfar (Chief of Prayers for Forgiveness)",
+    "arabicText": "اللَّهُمَّ أَنْتَ رَبِّي لَا إِلَهَ إِلَّا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ بِذَنْبِي فَاغْفِرْ لِي فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ",
+    "transliteration": "Allahumma Anta Rabbi la ilaha illa Ant, khalaqtani wa ana 'abduk, wa ana 'ala 'ahdika wa wa'dika mastata't, a'udhu bika min sharri ma sana't, abu'u laka bini'matika 'alay, wa abu'u bidhanbi faghfir li, fa-innahu la yaghfiru-dh-dhunuba illa Ant.",
+    "translation": "O Allah, You are my Lord, there is none worthy of worship except You. You created me and I am Your servant, and I adhere to Your covenant and promise as much as I am able. I seek refuge in You from the evil of what I have done. I acknowledge before You Your favor upon me, and I acknowledge my sin, so forgive me, for indeed none can forgive sins except You.",
+    "hadithCollection": "Sahih al-Bukhari",
+    "hadithNumber": "6306",
+    "hadithGrade": "Sahih (Authentic)"
+  },
+  {
+    "id": "adhkar-morning-2",
+    "category": "morning",
+    "title": "Protection Against All Harm",
+    "arabicText": "بِسْمِ اللَّهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ",
+    "transliteration": "Bismillahil-ladhi la yadurru ma'as-mihi shay'un fil-ardi wa la fis-sama'i wa Huwas-Sami'ul-'Alim.",
+    "translation": "In the name of Allah, with Whose name nothing can cause harm in the earth nor in the heavens, and He is the All-Hearing, the All-Knowing.",
+    "hadithCollection": "Sunan Abi Dawud / Jami' at-Tirmidhi",
+    "hadithNumber": "Abi Dawud 5088; at-Tirmidhi 3388",
+    "hadithGrade": "Hasan Sahih (Authentic)"
+  },
+  {
+    "id": "adhkar-morning-3",
+    "category": "morning",
+    "title": "Contentment with Allah as Lord",
+    "arabicText": "رَضِيتُ بِاللَّهِ رَبًّا، وَبِالْإِسْلَامِ دِينًا، وَبِمُحَمَّدٍ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ نَبِيًّا",
+    "transliteration": "Radheetu billahi Rabba, wa bil-Islami deena, wa bi-Muhammadin sallallahu 'alayhi wa sallama Nabiyya.",
+    "translation": "I am pleased with Allah as my Lord, with Islam as my religion, and with Muhammad (peace and blessings of Allah be upon him) as my Prophet.",
+    "hadithCollection": "Sunan Abi Dawud",
+    "hadithNumber": "5072",
+    "hadithGrade": "Sahih (Authentic)"
+  },
+  {
+    "id": "adhkar-evening-1",
+    "category": "evening",
+    "title": "Evening Refuge in Allah's Perfect Words",
+    "arabicText": "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ",
+    "transliteration": "A'udhu bi-kalimatil-lahit-tammati min sharri ma khalaq.",
+    "translation": "I seek refuge in the perfect words of Allah from the evil of what He has created.",
+    "hadithCollection": "Sahih Muslim",
+    "hadithNumber": "2709",
+    "hadithGrade": "Sahih (Authentic)"
+  },
+  {
+    "id": "adhkar-evening-2",
+    "category": "evening",
+    "title": "Evening Prayer of Wellness and Safety",
+    "arabicText": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَافِيَةَ فِي الدُّنْيَا وَالْآخِرَةِ، اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَفْوَ وَالْعَافِيَةَ فِي دِينِي وَدُنْيَايَ وَأَهْلِي وَمَالِي",
+    "transliteration": "Allahumma inni as'alukal-'afiyata fid-dunya wal-akhirah. Allahumma inni as'alukal-'afwa wal-'afiyata fi deeni wa dunyaya wa ahli wa mali.",
+    "translation": "O Allah, I ask You for well-being in this world and the Hereafter. O Allah, I ask You for pardon and well-being in my religion, my worldly affairs, my family, and my wealth.",
+    "hadithCollection": "Sunan Abi Dawud",
+    "hadithNumber": "5074",
+    "hadithGrade": "Sahih (Authentic)"
+  },
+  {
+    "id": "adhkar-sleep-1",
+    "category": "sleep",
+    "title": "Lying Down to Sleep",
+    "arabicText": "بِاسْمِكَ رَبِّي وَضَعْتُ جَنْبِي، وَبِكَ أَرْفَعُهُ، إِنْ أَمْسَكْتَ نَفْسِي فَارْحَمْهَا، وَإِنْ أَرْسَلْتَهَا فَاحْفَظْهَا بِمَا تَحْفَظُ بِهِ عِبَادَكَ الصَّالِحِينَ",
+    "transliteration": "Bismika Rabbi wada'tu janbi, wa bika arfa'uh. In amsakta nafsi farhamha, wa in arsaltaha fahfazha bima tahfazu bihi 'ibadakas-salihin.",
+    "translation": "In Your name, my Lord, I lay down on my side, and by You I raise it up. If You take my soul, have mercy upon it, and if You send it back, protect it as You protect Your righteous servants.",
+    "hadithCollection": "Sahih al-Bukhari",
+    "hadithNumber": "6320",
+    "hadithGrade": "Sahih (Authentic)"
+  },
+  {
+    "id": "adhkar-sleep-2",
+    "category": "sleep",
+    "title": "Tasbih Before Sleeping (Fatima's Dhikr)",
+    "arabicText": "سُبْحَانَ اللَّهِ (٣٣) ، الْحَمْدُ لِلَّهِ (٣٣) ، اللَّهُ أَكْبَرُ (٣٤)",
+    "transliteration": "SubhanAllah (33 times), Alhamdulillah (33 times), Allahu Akbar (34 times).",
+    "translation": "Glory be to Allah (33), All praise is due to Allah (33), Allah is the Greatest (34). The Prophet taught this to Ali and Fatima (may Allah be pleased with them) as better than a servant for physical and mental renewal.",
+    "hadithCollection": "Sahih al-Bukhari / Sahih Muslim",
+    "hadithNumber": "al-Bukhari 3705; Muslim 2727",
+    "hadithGrade": "Sahih (Authentic)"
+  }
+]

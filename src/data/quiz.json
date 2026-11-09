@@ -1,0 +1,112 @@
+[
+  {
+    "id": "quiz-1",
+    "question": "In Surah Al-'Asr (103:1-3), Allah swears by 'Time'. What does this emphasize for a believer?",
+    "options": [
+      "That time is an irreplaceable trust and human life slips away unless filled with faith, good deeds, and patience",
+      "That only scholarly time counts towards salvation",
+      "That worldly work is completely prohibited"
+    ],
+    "correctIndex": 0,
+    "explanation": "Imam Ash-Shafi'i famously remarked that if humanity only reflected on Surah Al-'Asr, it would be sufficient guidance for organizing their lives and prioritizing what truly matters."
+  },
+  {
+    "id": "quiz-2",
+    "question": "What is the primary spiritual antidote taught in the Qur'an for a restless, agitated heart (Surah Ar-Ra'd 13:28)?",
+    "options": [
+      "Endless news and social media monitoring",
+      "The sincere remembrance of Allah (Dhikr)",
+      "Total isolation from society"
+    ],
+    "correctIndex": 1,
+    "explanation": "Allah states: 'Unquestionably, by the remembrance of Allah hearts are assured.' When digital dopamine leaves the heart feeling empty and dry, Dhikr returns peace and tranquility."
+  },
+  {
+    "id": "quiz-3",
+    "question": "The Prophet Muhammad (ﷺ) said: 'Take benefit of five before five...' What are the two that directly relate to digital distraction?",
+    "options": [
+      "Your wealth before poverty, and your fame before obscurity",
+      "Your youth before old age, and your free time before you become preoccupied",
+      "Your strength before sleep, and your meals before fasting"
+    ],
+    "correctIndex": 1,
+    "explanation": "Narrated by Ibn Abbas (Al-Hakim, Sahih according to Al-Albani in Sahih al-Jami' 1077). Youth and free time are two of the greatest gifts that doom-scrolling quietly steals without the student noticing."
+  },
+  {
+    "id": "quiz-4",
+    "question": "When observing blessings given to others online and feeling envy or FOMO, what does Islam encourage us to do?",
+    "options": [
+      "Say 'Allahumma Barik' (May Allah bless them) and ask Allah from His infinite bounty",
+      "Compete to post a grander version of our own life",
+      "Criticize them in group chats"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Prophet (ﷺ) taught that praying for blessing (Barakah) for our brother removes envy from our own chest and invites angels to make the same dua for us."
+  },
+  {
+    "id": "quiz-5",
+    "question": "The Prophet (ﷺ) described two blessings that many people are cheated out of (lose track of). What are they?",
+    "options": [
+      "Health and free time (Sahih al-Bukhari 6412)",
+      "Gold and silver",
+      "Sleep and food"
+    ],
+    "correctIndex": 0,
+    "explanation": "In Sahih al-Bukhari, Ibn Abbas reported that the Messenger of Allah said: 'There are two blessings in which many people are deceived: health and free time.' Mindful students guard both."
+  },
+  {
+    "id": "quiz-6",
+    "question": "What is the Islamic etiquette when an unverified rumor or sensational claim appears on your social feed?",
+    "options": [
+      "Immediately forward it to all groups to alert others",
+      "Verify the truth carefully before speaking or sharing (Surah Al-Hujurat 49:6)",
+      "Engage in public arguments in the comment section"
+    ],
+    "correctIndex": 1,
+    "explanation": "Surah Al-Hujurat (49:6) commands believers: 'If there comes to you a disobedient one with information, investigate, lest you harm a people out of ignorance.' Verifying protects peace."
+  },
+  {
+    "id": "quiz-7",
+    "question": "Why did the Prophet (ﷺ) teach Ali and Fatima (may Allah be pleased with them) the 33 SubhanAllah, 33 Alhamdulillah, and 34 Allahu Akbar tasbih before sleep?",
+    "options": [
+      "As a physical and spiritual renewal greater than a domestic helper (Sahih al-Bukhari 3705)",
+      "As an alternative to obligatory prayers",
+      "Only for travelers on a journey"
+    ],
+    "correctIndex": 0,
+    "explanation": "When Fatima was exhausted from household labor, the Prophet taught them this dhikr, stating it is better for their energy and peace of mind than having a servant."
+  },
+  {
+    "id": "quiz-8",
+    "question": "What does Islam teach regarding excessive, idle speech and gossip (Laghw)?",
+    "options": [
+      "Believers turn away with dignity and protect their focus (Surah Al-Mu'minun 23:3)",
+      "It is recommended for killing time",
+      "It is harmless as long as it is done online"
+    ],
+    "correctIndex": 0,
+    "explanation": "Surah Al-Mu'minun describes the successful believers as 'those who turn away from ill speech / vanity.' Endless comment fights and drama fall directly into Laghw."
+  },
+  {
+    "id": "quiz-9",
+    "question": "What happens when a person seeks forgiveness through Istighfar during moments of stress?",
+    "options": [
+      "Allah opens a way out from every distress and relief from every anxiety (Sunan Abi Dawud 1518)",
+      "It causes more anxiety",
+      "It has no connection to mental well-being"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Prophet (ﷺ) said: 'Whoever constantly seeks forgiveness, Allah will appoint for him a way out of every distress and a relief from every anxiety.'"
+  },
+  {
+    "id": "quiz-10",
+    "question": "What is the Sunnah attitude toward daily self-reflection (Muhasabah)?",
+    "options": [
+      "Self-blame that leads to despair and giving up",
+      "Calm, honest reflection: taking account of oneself today before the ultimate account (Umar ibn al-Khattab)",
+      "Ignoring all mistakes completely"
+    ],
+    "correctIndex": 1,
+    "explanation": "Umar (RA) advised: 'Hold yourselves to account before you are held to account.' Unscroll's Reflect tab embodies this calm, forgiving self-awareness without despair."
+  }
+]
